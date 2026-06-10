@@ -1,0 +1,47 @@
+:root {
+/* Charcoal */
+--charcoal-dark: #141414;
+--charcoal: #1F1F1F;
+--charcoal-light: #3F3F3F;
+
+/* Off White */
+--off-white-light: #FCFAF7;
+--off-white: #F7F5F2;
+--off-white-dark: #EAE6E0;
+
+/* Neutral */
+--warm-gray: #D6D3D1;
+
+/* Amber */
+--amber-light: #F59E0B;
+--amber: #D97706;
+--amber-dark: #B45309;
+
+/* Text */
+--text-primary: #1F1F1F;
+--text-secondary: #525252;
+
+/* Borders */
+--border: #D6D3D1;
+
+/* Background */
+--background: #F7F5F2;
+}
+
+body {
+margin: 0 auto;
+max-width: 80%;
+}
+header {
+display: grid;
+grid-template-columns: 1fr 2fr;
+}
+
+header .intro {
+color: var(--off-white-light);
+background-color: var(--amber);
+display: flex;
+flex-direction: column;
+justify-content: center;
+text-align: center;
+}
