@@ -192,8 +192,12 @@ h1 {
     margin: 0;
 }
 
+/* GOLD NAME */
+
 h1 span {
     display: inline-block;
+
+    color: #ffd36b;
 }
 
 .accent-line {
