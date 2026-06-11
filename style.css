@@ -38,12 +38,16 @@ body {
     color: var(--text-primary);
 }
 
-header {
+/* ======================
+   HERO
+====================== */
+
+.hero {
     width: min(1300px, 90%);
     margin: 0 auto;
 
     display: grid;
-    grid-template-columns: 380px 1fr;
+    grid-template-columns: 420px 1fr;
 
     background: white;
 
@@ -54,8 +58,12 @@ header {
         0 30px 60px rgba(0, 0, 0, 0.08),
         0 10px 25px rgba(0, 0, 0, 0.04);
 
-    min-height: 650px;
+    min-height: 500px;
 }
+
+/* ======================
+   PHOTO
+====================== */
 
 .photo {
     position: relative;
@@ -72,6 +80,10 @@ header {
     transform: scale(1.03);
 }
 
+/* ======================
+   INTRO
+====================== */
+
 .intro {
     position: relative;
 
@@ -79,7 +91,7 @@ header {
     flex-direction: column;
     justify-content: center;
 
-    padding: 5rem;
+    padding: 3rem 4rem;
 
     color: white;
 
@@ -102,6 +114,8 @@ header {
         );
 }
 
+/* Decorative Circle */
+
 .intro::before {
     content: "";
 
@@ -117,11 +131,13 @@ header {
     background: rgba(255,255,255,.05);
 }
 
+/* Dot Pattern */
+
 .intro::after {
     content: "";
 
     position: absolute;
-    top: 60px;
+    top: 65px;
     right: 60px;
 
     width: 140px;
@@ -135,13 +151,17 @@ header {
 
     background-size: 12px 12px;
 
-    opacity: .6;
+    opacity: .55;
 }
+
+/* ======================
+   EYEBROW
+====================== */
 
 .eyebrow {
     width: fit-content;
 
-    padding: .75rem 1.25rem;
+    padding: .65rem 1.25rem;
 
     border-radius: 999px;
 
@@ -155,17 +175,25 @@ header {
     font-weight: 600;
     letter-spacing: .15em;
 
-    margin-bottom: 2rem;
+    margin-bottom: 1.75rem;
 }
+
+/* ======================
+   TYPOGRAPHY
+====================== */
 
 h1 {
     font-family: "Cormorant Garamond", serif;
 
-    font-size: clamp(4.5rem, 7vw, 6.5rem);
+    font-size: clamp(3.75rem, 6vw, 5.5rem);
 
-    line-height: .9;
+    line-height: .92;
 
     margin: 0;
+}
+
+h1 span {
+    display: inline-block;
 }
 
 .accent-line {
@@ -174,63 +202,71 @@ h1 {
 
     background: #ffe0a8;
 
-    border-radius: 10px;
+    border-radius: 999px;
 
-    margin: 2rem 0;
+    margin: 1.5rem 0;
 }
 
 h2 {
-    margin: 0 0 1.5rem 0;
+    margin: 0 0 1.25rem 0;
 
-    font-size: 2rem;
+    font-size: 1.9rem;
     font-weight: 700;
 
     max-width: 700px;
 }
 
 .hero-copy {
-    max-width: 700px;
+    max-width: 650px;
 
-    font-size: 1.2rem;
-    line-height: 1.8;
+    font-size: 1.05rem;
+    line-height: 1.7;
 
     color: rgba(255,255,255,.95);
 
-    margin-bottom: 2.5rem;
+    margin-bottom: 2rem;
 }
+
+/* ======================
+   TAGS
+====================== */
 
 .hero-tags {
     display: flex;
     flex-wrap: wrap;
-    gap: 1rem;
-
-    margin-bottom: 3rem;
+    gap: .75rem;
 }
 
 .hero-tags span {
-    padding: .85rem 1.25rem;
+    padding: .8rem 1.2rem;
 
     border-radius: 999px;
 
-    border: 1px solid rgba(255,255,255,.2);
+    border: 1px solid rgba(255,255,255,.18);
 
-    background: rgba(255,255,255,.1);
+    background: rgba(255,255,255,.08);
 
     backdrop-filter: blur(10px);
 
-    font-size: .95rem;
+    font-size: .9rem;
     font-weight: 500;
 }
+
+/* ======================
+   BUTTONS
+====================== */
 
 .hero-actions {
     display: flex;
     gap: 1rem;
+
+    margin-top: 2rem;
 }
 
 .btn {
     text-decoration: none;
 
-    padding: 1rem 1.75rem;
+    padding: .95rem 1.6rem;
 
     border-radius: 14px;
 
@@ -260,14 +296,18 @@ h2 {
     background: rgba(255,255,255,.15);
 }
 
-@media (max-width: 900px) {
+/* ======================
+   RESPONSIVE
+====================== */
 
-    header {
+@media (max-width: 1000px) {
+
+    .hero {
         grid-template-columns: 1fr;
     }
 
     .photo {
-        height: 450px;
+        height: 420px;
     }
 
     .intro {
@@ -281,6 +321,22 @@ h2 {
     h2 {
         font-size: 1.5rem;
     }
+}
+
+@media (max-width: 640px) {
+
+    body {
+        padding: 2rem 0;
+    }
+
+    .hero {
+        width: 94%;
+        border-radius: 24px;
+    }
+
+    .photo {
+        height: 340px;
+    }
 
     .hero-actions {
         flex-direction: column;
@@ -288,5 +344,13 @@ h2 {
 
     .btn {
         text-align: center;
+    }
+
+    .hero-tags {
+        gap: .5rem;
+    }
+
+    .hero-tags span {
+        font-size: .85rem;
     }
 }
