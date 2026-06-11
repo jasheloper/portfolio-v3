@@ -75,6 +75,8 @@ body {
     height: 100%;
 
     object-fit: cover;
+    object-position: center center;
+
     display: block;
 
     transform: scale(1.03);
@@ -191,8 +193,6 @@ h1 {
 
     margin: 0;
 }
-
-/* GOLD NAME */
 
 h1 span {
     display: inline-block;
@@ -314,6 +314,10 @@ h2 {
         height: 420px;
     }
 
+    .photo img {
+        object-position: center top;
+    }
+
     .intro {
         padding: 3rem 2rem;
     }
@@ -339,7 +343,11 @@ h2 {
     }
 
     .photo {
-        height: 340px;
+        height: 500px;
+    }
+
+    .photo img {
+        object-position: center top;
     }
 
     .hero-actions {
