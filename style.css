@@ -301,6 +301,8 @@ h2 {
    RESPONSIVE
 ====================== */
 
+/*670px - 997px - headshot is too cropped*/
+
 @media (max-width: 1000px) {
 
     .hero {
