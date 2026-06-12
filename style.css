@@ -58,7 +58,7 @@ body {
         0 30px 60px rgba(0, 0, 0, 0.08),
         0 10px 25px rgba(0, 0, 0, 0.04);
 
-    height: 420px;
+    height: 440px;
 }
 
 /* ======================
@@ -317,7 +317,7 @@ h2 {
     }
 
     .intro {
-        padding: 3rem 2rem;
+        padding: 2rem;
     }
 
     h1 {
