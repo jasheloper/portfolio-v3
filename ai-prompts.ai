@@ -1,22 +1,5 @@
-what i have now:
-.hero {
-    width: min(1300px, 90%);
-    margin: 0 auto;
+why is mobile broken now. the content is missing.
 
-    display: grid;
-    grid-template-columns: 360px 1fr;
-
-    background: white;
-
-    border-radius: 32px;
-    overflow: hidden;
-
-    box-shadow:
-        0 30px 60px rgba(0, 0, 0, 0.08),
-        0 10px 25px rgba(0, 0, 0, 0.04);
-
-    height: 420px;
-}
 
 
 

@@ -305,6 +305,7 @@ h2 {
 
     .hero {
         grid-template-columns: 1fr;
+        height: auto;
     }
 
     .photo {
