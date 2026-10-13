@@ -47,7 +47,7 @@ body {
     margin: 0 auto;
 
     display: grid;
-    grid-template-columns: 400px 1fr;
+    grid-template-columns: minmax(340px, 400px) 1fr;
 
     background: white;
 
@@ -313,5 +313,11 @@ h2 {
 
     .photo img {
         height: 100%;
+    }
+    
+}
+@media (min-width: 997px) and (max-width: 1167px) {
+    .hero{
+        height: auto;
     }
 }
