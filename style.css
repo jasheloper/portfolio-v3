@@ -301,68 +301,17 @@ h2 {
    RESPONSIVE
 ====================== */
 
-/*670px - 997px - headshot is too cropped*/
-
-@media (max-width: 1000px) {
-
+@media (max-width: 996px) {
     .hero {
         grid-template-columns: 1fr;
         height: auto;
     }
 
     .photo {
-        height: 420px;
+        aspect-ratio: 400 / 440;
     }
 
     .photo img {
-        object-position: center top;
-    }
-
-    .intro {
-        padding: 2rem;
-    }
-
-    h1 {
-        font-size: 4rem;
-    }
-
-    h2 {
-        font-size: 1.5rem;
-    }
-}
-
-@media (max-width: 640px) {
-
-    body {
-        padding: 2rem 0;
-    }
-
-    .hero {
-        width: 94%;
-        border-radius: 24px;
-    }
-
-    .photo {
-        height: 500px;
-    }
-
-    .photo img {
-        object-position: center top;
-    }
-
-    .hero-actions {
-        flex-direction: column;
-    }
-
-    .btn {
-        text-align: center;
-    }
-
-    .hero-tags {
-        gap: .5rem;
-    }
-
-    .hero-tags span {
-        font-size: .85rem;
+        height: 100%;
     }
 }
