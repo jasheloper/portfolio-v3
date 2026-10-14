@@ -317,24 +317,27 @@ height: 100%;
 .intro {
 padding: 2rem 2.5rem;
 }
-.eyebrow {
-font-size: .65rem;
-}
-
-h1 {
-    font-size: 2.1rem;
-}
-
-h2 {
-font-size: 1.2rem;
-}
-
-.hero-copy {
-    font-size: 0.9rem;
-}
-
 
 }
+
+@media (max-width: 600px) {
+    .eyebrow {
+        font-size: .65rem;
+    }
+
+    h1 {
+        font-size: 2.1rem;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+    }
+
+    .hero-copy {
+        font-size: .9rem;
+    }
+}
+
 @media (min-width: 997px) and (max-width: 1167px) {
 .hero{
 height: auto;
