@@ -1,323 +1,342 @@
 :root {
 
-    /* Charcoal */
-    --charcoal-dark: #141414;
-    --charcoal: #1f1f1f;
-    --charcoal-light: #3f3f3f;
+/* Charcoal */
+--charcoal-dark: #141414;
+--charcoal: #1f1f1f;
+--charcoal-light: #3f3f3f;
 
-    /* Off White */
-    --off-white-light: #fcfaf7;
-    --off-white: #f7f5f2;
-    --off-white-dark: #eae6e0;
+/* Off White */
+--off-white-light: #fcfaf7;
+--off-white: #f7f5f2;
+--off-white-dark: #eae6e0;
 
-    /* Neutral */
-    --warm-gray: #d6d3d1;
+/* Neutral */
+--warm-gray: #d6d3d1;
 
-    /* Amber */
-    --amber-light: #f59e0b;
-    --amber: #d97706;
-    --amber-dark: #b45309;
+/* Amber */
+--amber-light: #f59e0b;
+--amber: #d97706;
+--amber-dark: #b45309;
 
-    --text-primary: #1f1f1f;
-    --text-secondary: #525252;
+--text-primary: #1f1f1f;
+--text-secondary: #525252;
 
-    --background: #f7f5f2;
+--background: #f7f5f2;
 }
 
 * {
-    box-sizing: border-box;
+box-sizing: border-box;
 }
 
 body {
-    margin: 0;
-    padding: 4rem 0;
+margin: 0;
+padding: 4rem 0;
 
-    background: var(--background);
+background: var(--background);
 
-    font-family: "Inter", sans-serif;
-    color: var(--text-primary);
+font-family: "Inter", sans-serif;
+color: var(--text-primary);
 }
 
 /* ======================
-   HERO
+HERO
 ====================== */
 
 .hero {
-    width: min(1300px, 90%);
-    margin: 0 auto;
+width: min(1300px, 90%);
+margin: 0 auto;
 
-    display: grid;
-    grid-template-columns: minmax(340px, 400px) 1fr;
+display: grid;
+grid-template-columns: minmax(340px, 400px) 1fr;
 
-    background: white;
+background: white;
 
-    border-radius: 32px;
-    overflow: hidden;
+border-radius: 32px;
+overflow: hidden;
 
-    box-shadow:
-        0 30px 60px rgba(0, 0, 0, 0.08),
-        0 10px 25px rgba(0, 0, 0, 0.04);
+box-shadow:
+0 30px 60px rgba(0, 0, 0, 0.08),
+0 10px 25px rgba(0, 0, 0, 0.04);
 
-    height: 440px;
+height: 440px;
 }
 
 /* ======================
-   PHOTO
+PHOTO
 ====================== */
 
 .photo {
-    position: relative;
-    overflow: hidden;
+position: relative;
+overflow: hidden;
 }
 
 .photo img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center center;
-    display: block;
-    transform: scale(1.03);
+width: 100%;
+height: 100%;
+object-fit: cover;
+object-position: center center;
+display: block;
+transform: scale(1.03);
 }
 
 /* ======================
-   INTRO
+INTRO
 ====================== */
 
 .intro {
-    position: relative;
+position: relative;
 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+display: flex;
+flex-direction: column;
+justify-content: center;
 
-    padding: 3rem 4rem;
+padding: 3rem 4rem;
 
-    color: white;
+color: white;
 
-    background:
-        radial-gradient(
-            circle at top right,
-            rgba(255,255,255,.12),
-            transparent 35%
-        ),
-        radial-gradient(
-            circle at bottom left,
-            rgba(255,255,255,.08),
-            transparent 30%
-        ),
-        linear-gradient(
-            135deg,
-            #d97706 0%,
-            #c86400 40%,
-            #b45309 100%
-        );
+background:
+radial-gradient(
+circle at top right,
+rgba(255,255,255,.12),
+transparent 35%
+),
+radial-gradient(
+circle at bottom left,
+rgba(255,255,255,.08),
+transparent 30%
+),
+linear-gradient(
+135deg,
+#d97706 0%,
+#c86400 40%,
+#b45309 100%
+);
 }
 
 /* Decorative Circle */
 
 .intro::before {
-    content: "";
+content: "";
 
-    position: absolute;
-    top: -200px;
-    right: -150px;
+position: absolute;
+top: -200px;
+right: -150px;
 
-    width: 500px;
-    height: 500px;
+width: 500px;
+height: 500px;
 
-    border-radius: 50%;
+border-radius: 50%;
 
-    background: rgba(255,255,255,.05);
+background: rgba(255,255,255,.05);
 }
 
 /* Dot Pattern */
 
 .intro::after {
-    content: "";
+content: "";
 
-    position: absolute;
-    top: 65px;
-    right: 60px;
+position: absolute;
+top: 65px;
+right: 60px;
 
-    width: 140px;
-    height: 140px;
+width: 140px;
+height: 140px;
 
-    background-image:
-        radial-gradient(
-            rgba(255,255,255,.25) 1px,
-            transparent 1px
-        );
+background-image:
+radial-gradient(
+rgba(255,255,255,.25) 1px,
+transparent 1px
+);
 
-    background-size: 12px 12px;
+background-size: 12px 12px;
 
-    opacity: .55;
+opacity: .55;
 }
 
 /* ======================
-   EYEBROW
+EYEBROW
 ====================== */
 
 .eyebrow {
-    width: fit-content;
+width: fit-content;
 
-    padding: .65rem 1.25rem;
+padding: .65rem 1.25rem;
 
-    border-radius: 999px;
+border-radius: 999px;
 
-    border: 1px solid rgba(255,255,255,.25);
+border: 1px solid rgba(255,255,255,.25);
 
-    background: rgba(255,255,255,.12);
+background: rgba(255,255,255,.12);
 
-    backdrop-filter: blur(12px);
+backdrop-filter: blur(12px);
 
-    font-size: .75rem;
-    font-weight: 600;
-    letter-spacing: .15em;
+font-size: .75rem;
+font-weight: 600;
+letter-spacing: .15em;
 
-    margin-bottom: 1.75rem;
+margin-bottom: 1.75rem;
 }
 
 /* ======================
-   TYPOGRAPHY
+TYPOGRAPHY
 ====================== */
 
 h1 {
-    font-family: "Cormorant Garamond", serif;
+font-family: "Cormorant Garamond", serif;
 
-    font-size: clamp(3.75rem, 6vw, 5.5rem);
+font-size: clamp(3.75rem, 6vw, 5.5rem);
 
-    line-height: .92;
+line-height: .92;
 
-    margin: 0;
+margin: 0;
 }
 
 h1 span {
-    display: inline-block;
+display: inline-block;
 
-    color: #ffd36b;
+color: #ffd36b;
 }
 
 .accent-line {
-    width: 70px;
-    height: 4px;
+width: 70px;
+height: 4px;
 
-    background: #ffe0a8;
+background: #ffe0a8;
 
-    border-radius: 999px;
+border-radius: 999px;
 
-    margin: 1.5rem 0;
+margin: 1.5rem 0;
 }
 
 h2 {
-    margin: 0 0 1.25rem 0;
+margin: 0 0 1.25rem 0;
 
-    font-size: 1.9rem;
-    font-weight: 700;
+font-size: 1.9rem;
+font-weight: 700;
 
-    max-width: 700px;
+max-width: 700px;
 }
 
 .hero-copy {
-    max-width: 650px;
+max-width: 650px;
 
-    font-size: 1.05rem;
-    line-height: 1.7;
+font-size: 1.05rem;
+line-height: 1.7;
 
-    color: rgba(255,255,255,.95);
+color: rgba(255,255,255,.95);
 
-    margin-bottom: 2rem;
+margin-bottom: 2rem;
 }
 
 /* ======================
-   TAGS
+TAGS
 ====================== */
 
 .hero-tags {
-    display: flex;
-    flex-wrap: wrap;
-    gap: .75rem;
+display: flex;
+flex-wrap: wrap;
+gap: .75rem;
 }
 
 .hero-tags span {
-    padding: .8rem 1.2rem;
+padding: .8rem 1.2rem;
 
-    border-radius: 999px;
+border-radius: 999px;
 
-    border: 1px solid rgba(255,255,255,.18);
+border: 1px solid rgba(255,255,255,.18);
 
-    background: rgba(255,255,255,.08);
+background: rgba(255,255,255,.08);
 
-    backdrop-filter: blur(10px);
+backdrop-filter: blur(10px);
 
-    font-size: .9rem;
-    font-weight: 500;
+font-size: .9rem;
+font-weight: 500;
 }
 
 /* ======================
-   BUTTONS
+BUTTONS
 ====================== */
 
 .hero-actions {
-    display: flex;
-    gap: 1rem;
+display: flex;
+gap: 1rem;
 
-    margin-top: 2rem;
+margin-top: 2rem;
 }
 
 .btn {
-    text-decoration: none;
+text-decoration: none;
 
-    padding: .95rem 1.6rem;
+padding: .95rem 1.6rem;
 
-    border-radius: 14px;
+border-radius: 14px;
 
-    font-weight: 600;
+font-weight: 600;
 
-    transition: all .25s ease;
+transition: all .25s ease;
 }
 
 .btn-primary {
-    background: white;
-    color: var(--amber-dark);
+background: white;
+color: var(--amber-dark);
 }
 
 .btn-primary:hover {
-    transform: translateY(-2px);
+transform: translateY(-2px);
 }
 
 .btn-secondary {
-    color: white;
+color: white;
 
-    border: 1px solid rgba(255,255,255,.35);
+border: 1px solid rgba(255,255,255,.35);
 
-    background: rgba(255,255,255,.08);
+background: rgba(255,255,255,.08);
 }
 
 .btn-secondary:hover {
-    background: rgba(255,255,255,.15);
+background: rgba(255,255,255,.15);
 }
 
 /* ======================
-   RESPONSIVE
+RESPONSIVE
 ====================== */
 
 @media (max-width: 996px) {
-    .hero {
-        grid-template-columns: 1fr;
-        height: auto;
-    }
+.hero {
+grid-template-columns: 1fr;
+height: auto;
+}
 
-    .photo {
-        aspect-ratio: 400 / 440;
-    }
+.photo {
+aspect-ratio: 400 / 440;
+}
 
-    .photo img {
-        height: 100%;
-    }
-    
+.photo img {
+height: 100%;
+}
+.intro {
+padding: 2rem 2.5rem;
+}
+.eyebrow {
+font-size: .65rem;
+}
+
+h1 {
+    font-size: 2.1rem;
+}
+
+h2 {
+font-size: 1.2rem;
+}
+
+.hero-copy {
+    font-size: 0.9rem;
+}
+
+
 }
 @media (min-width: 997px) and (max-width: 1167px) {
-    .hero{
-        height: auto;
-    }
+.hero{
+height: auto;
+}
 }
