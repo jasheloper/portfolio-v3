@@ -298,5 +298,131 @@ background: rgba(255,255,255,.15);
 }
 
 /* ======================
-RESPONSIVE
+CAREER JOURNEY
 ====================== */
+
+.career-journey {
+width: min(1300px, 90%);
+margin: 3rem auto 0;
+}
+
+.section-heading .accent-line {
+background: var(--amber);
+margin: 0 0 1rem 0;
+}
+
+.section-heading h2 {
+font-family: "Cormorant Garamond", serif;
+font-size: clamp(3rem, 5vw, 4rem);
+line-height: .95;
+margin: 0 0 .5rem 0;
+}
+
+.section-heading p {
+max-width: none;
+margin: 0;
+font-size: 1.05rem;
+line-height: 1.6;
+color: var(--text-secondary);
+}
+
+/* ======================
+CAREER TIMELINE
+====================== */
+
+.career-timeline {
+position: relative;
+
+display: grid;
+grid-template-columns: repeat(5, 1fr);
+
+margin-top: 2.25rem;
+}
+
+.career-timeline::before {
+content: "";
+
+position: absolute;
+
+top: 54px;
+left: 5%;
+right: 5%;
+
+height: 1px;
+
+background: var(--off-white-dark);
+}
+
+.career-item {
+position: relative;
+
+display: flex;
+flex-direction: column;
+align-items: center;
+
+text-align: center;
+}
+
+.career-item time {
+height: 28px;
+
+font-size: 1rem;
+font-weight: 700;
+
+color: var(--charcoal);
+}
+
+.career-item.current time {
+color: var(--amber);
+}
+
+.timeline-dot {
+position: relative;
+z-index: 1;
+
+width: 22px;
+height: 22px;
+
+margin: .75rem 0 1.5rem;
+
+border-radius: 50%;
+
+background: #f6c77d;
+
+box-shadow: 0 0 0 4px var(--background);
+}
+
+.career-item.current .timeline-dot {
+background: var(--amber);
+animation: pulse-current 2s ease-in-out infinite;
+}
+
+@keyframes pulse-current {
+0%,
+100% {
+box-shadow: 0 0 0 4px var(--background);
+}
+
+50% {
+box-shadow:
+0 0 0 8px var(--background),
+0 0 0 10px rgba(217, 119, 6, 0.2);
+}
+}
+.career-details h3 {
+margin: 0 0 .35rem 0;
+
+font-size: 1rem;
+font-weight: 700;
+
+color: var(--charcoal);
+}
+
+.career-details p {
+margin: 0;
+
+font-size: 1rem;
+
+color: var(--text-secondary);
+}
+
