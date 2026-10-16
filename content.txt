@@ -15,7 +15,7 @@ Web Developer & CMS Professional
 
 Career Journey
 
-Over the past 6 years, I have contributed to building and supporting a wide range of web and digital experiences across multiple industries including Ecommerce, Higher Education, Energy Efficiency, and Digital Marketing.
+Over the past 6 years, I have built and supported a wide range of web and digital experiences across Ecommerce, Higher Education, Energy Efficiency, and Digital Marketing, adapting to different platforms, audiences, and business needs.
 
 Current
 Web Content Manager
@@ -47,8 +47,7 @@ Maricopa Community Colleges
 
 Technical Toolkit
 
-In my work, I have used the following technologies and tools to build, maintain, and improve web experiences.
-
+In my work, I have used the following technologies and tools to build, maintain, and improve high-quality web experiences.
 
 Web Development
 HTML
@@ -62,3 +61,7 @@ CMS & Platforms
 Drupal
 Magento
 WordPress
+
+
+
+
