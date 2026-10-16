@@ -9,6 +9,10 @@ Web Developer & CMS Professional
 
 
 
+
+
+
+
 Career Journey
 
 Over the past 6 years, I have contributed to building and supporting a wide range of web and digital experiences across multiple industries including Ecommerce, Higher Education, Energy Efficiency, and Digital Marketing.
@@ -32,3 +36,17 @@ Meltmedia
 2020
 Software Developer Specialist
 Maricopa Community Colleges
+
+
+
+
+
+
+
+
+
+Technical Toolkit
+
+HTML, CSS, JavaScript
+
+...
