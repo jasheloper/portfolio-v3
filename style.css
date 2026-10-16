@@ -475,6 +475,8 @@ TECHNICAL TOOLKIT
             #fdf0df 55%,
             #fae9d2 100%
         );
+
+    border-top: 1px solid var(--amber-dark);
 }
 
 .toolkit-content {

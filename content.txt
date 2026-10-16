@@ -47,6 +47,17 @@ Maricopa Community Colleges
 
 Technical Toolkit
 
-HTML, CSS, JavaScript
 
-...
+
+Web Development
+HTML
+CSS
+JavaScript
+Tailwind
+Bootstrap
+Git
+
+CMS & Platforms
+Drupal
+Magento
+WordPress
