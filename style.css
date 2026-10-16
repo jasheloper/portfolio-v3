@@ -339,7 +339,7 @@ CAREER JOURNEY
 .section-heading p {
     max-width: none;
 
-    margin: 0;
+    margin-bottom: 3rem;
 
     font-size: 1.05rem;
     line-height: 1.6;
@@ -503,7 +503,7 @@ TECHNICAL TOOLKIT
 }
 
 .toolkit-content p {
-    margin: 0;
+    margin-bottom: 2rem;
 
     font-size: 1.05rem;
     line-height: 1.6;
