@@ -497,7 +497,7 @@ TECHNICAL TOOLKIT
 
     line-height: .95;
 
-    color: #6b3f16;
+    color: var(--amber-dark);
 }
 
 .toolkit-content p {
@@ -531,6 +531,14 @@ TECHNICAL TOOLKIT
     font-weight: 500;
 
     color: var(--charcoal);
+}
+
+.toolkit-list {
+    margin-top: .75rem;
+}
+
+.toolkit-list + h3 {
+    margin-top: 2.5rem;
 }
 
 
