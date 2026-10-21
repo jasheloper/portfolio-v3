@@ -11,8 +11,6 @@ Web Developer & CMS Professional
 
 
 
-
-
 Career Journey
 
 Over the past 6 years, I have built and supported a wide range of web and digital experiences across Ecommerce, Higher Education, Energy Efficiency, and Digital Marketing, adapting to different platforms, audiences, and business needs.
@@ -68,3 +66,17 @@ WordPress
 Featured Work
 
 A selection of live production websites I've built and contributed to, including site builds, ecommerce experiences, and content-driven marketing sites.
+
+[projects list]
+
+
+
+
+
+
+Get in Touch
+Find me across the web.
+
+LinkedIn, GitHub, YouTube
+
+
