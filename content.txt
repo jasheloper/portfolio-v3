@@ -77,9 +77,6 @@ Featured Work
 
 A selection of live production websites I've built and contributed to, including site builds, ecommerce experiences, and content-driven marketing sites.
 
-[projects list]
-
-
 
 
 
