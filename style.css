@@ -938,3 +938,25 @@ GET IN TOUCH
     pointer-events: none;
 }
 
+
+
+/* ======================
+FOOTER
+====================== */
+
+.site-footer {
+    width: 100%;
+    padding: 1rem 0;
+    background: var(--background);
+    border-top: 1px solid var(--warm-gray);
+}
+.site-footer-content {
+    width: min(1300px, 90%);
+    margin: 0 auto;
+}
+.site-footer p {
+    margin: 0;
+    color: var(--text-secondary);
+    font-size: 0.875rem;
+    line-height: 1.5;
+}
