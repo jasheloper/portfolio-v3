@@ -11,6 +11,10 @@ Web Developer & CMS Professional
 
 
 
+
+
+
+-----------------------------------
 Career Journey
 
 Over the past 6 years, I have built and supported a wide range of web and digital experiences across Ecommerce, Higher Education, Energy Efficiency, and Digital Marketing, adapting to different platforms, audiences, and business needs.
@@ -43,6 +47,8 @@ Maricopa Community Colleges
 
 
 
+
+-----------------------------------
 Technical Toolkit
 
 In my work, I have used the following technologies and tools to build, maintain, and improve high-quality web experiences.
@@ -63,6 +69,10 @@ WordPress
 
 
 
+
+
+
+-----------------------------------
 Featured Work
 
 A selection of live production websites I've built and contributed to, including site builds, ecommerce experiences, and content-driven marketing sites.
@@ -74,9 +84,23 @@ A selection of live production websites I've built and contributed to, including
 
 
 
+
+
+-----------------------------------
 Get in Touch
 Find me across the web.
 
 LinkedIn, GitHub, YouTube
 
 
+
+
+
+
+-----------------------------------
+Footer 
+
+© 2026 Jashele Tillman
+
+
+update the code with the new section
