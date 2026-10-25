@@ -26,9 +26,11 @@
     --background: #f7f5f2;
 }
 
+
 * {
     box-sizing: border-box;
 }
+
 
 body {
     margin: 0;
@@ -73,6 +75,7 @@ PHOTO
     position: relative;
     overflow: hidden;
 }
+
 
 .photo img {
     width: 100%;
@@ -203,11 +206,13 @@ h1 {
     margin: 0;
 }
 
+
 h1 span {
     display: inline-block;
 
     color: #ffd36b;
 }
+
 
 .accent-line {
     width: 70px;
@@ -220,6 +225,7 @@ h1 span {
     margin: 1.5rem 0;
 }
 
+
 h2 {
     margin: 0 0 1.25rem 0;
 
@@ -228,6 +234,7 @@ h2 {
 
     max-width: 700px;
 }
+
 
 .hero-copy {
     max-width: 650px;
@@ -250,6 +257,7 @@ TAGS
     flex-wrap: wrap;
     gap: .75rem;
 }
+
 
 .hero-tags span {
     padding: .8rem 1.2rem;
@@ -278,6 +286,7 @@ BUTTONS
     margin-top: 2rem;
 }
 
+
 .btn {
     text-decoration: none;
 
@@ -290,14 +299,17 @@ BUTTONS
     transition: all .25s ease;
 }
 
+
 .btn-primary {
     background: white;
     color: var(--amber-dark);
 }
 
+
 .btn-primary:hover {
     transform: translateY(-2px);
 }
+
 
 .btn-secondary {
     color: white;
@@ -306,6 +318,7 @@ BUTTONS
 
     background: rgba(255,255,255,.08);
 }
+
 
 .btn-secondary:hover {
     background: rgba(255,255,255,.15);
@@ -321,10 +334,12 @@ CAREER JOURNEY
     margin: 3rem auto 0;
 }
 
+
 .section-heading .accent-line {
     background: var(--amber);
     margin: 0 0 1rem 0;
 }
+
 
 .section-heading h2 {
     font-family: "Cormorant Garamond", serif;
@@ -335,6 +350,7 @@ CAREER JOURNEY
 
     margin: 0 0 .5rem 0;
 }
+
 
 .section-heading p {
     max-width: none;
@@ -361,6 +377,7 @@ CAREER TIMELINE
     margin-top: 2.25rem;
 }
 
+
 .career-timeline::before {
     content: "";
 
@@ -375,6 +392,7 @@ CAREER TIMELINE
     background: var(--off-white-dark);
 }
 
+
 .career-item {
     position: relative;
 
@@ -385,6 +403,7 @@ CAREER TIMELINE
     text-align: center;
 }
 
+
 .career-item time {
     height: 28px;
 
@@ -394,9 +413,11 @@ CAREER TIMELINE
     color: var(--charcoal);
 }
 
+
 .career-item.current time {
     color: var(--amber);
 }
+
 
 .timeline-dot {
     position: relative;
@@ -414,11 +435,13 @@ CAREER TIMELINE
     box-shadow: 0 0 0 4px var(--background);
 }
 
+
 .career-item.current .timeline-dot {
     background: var(--amber);
 
     animation: pulse-current 1.3s ease-in-out infinite;
 }
+
 
 @keyframes pulse-current {
 
@@ -430,10 +453,11 @@ CAREER TIMELINE
 
     50% {
         box-shadow:
-            0 0 0 8px var(--background),
+            0 0 0 4px var(--background),
             0 0 0 10px rgba(217, 119, 6, 0.2);
     }
 }
+
 
 .career-details h3 {
     margin: 0 0 .35rem 0;
@@ -443,6 +467,7 @@ CAREER TIMELINE
 
     color: var(--charcoal);
 }
+
 
 .career-details p {
     margin: 0;
@@ -479,6 +504,7 @@ TECHNICAL TOOLKIT
     border-top: 1px solid var(--amber-dark);
 }
 
+
 .toolkit-content {
     position: relative;
     z-index: 2;
@@ -489,6 +515,7 @@ TECHNICAL TOOLKIT
 
     padding: 3.5rem 0 4rem;
 }
+
 
 .toolkit-content h2 {
     margin: 0 0 .5rem 0;
@@ -502,6 +529,7 @@ TECHNICAL TOOLKIT
     color: var(--amber-dark);
 }
 
+
 .toolkit-content p {
     margin-bottom: 2rem;
 
@@ -511,6 +539,7 @@ TECHNICAL TOOLKIT
     color: var(--text-secondary);
 }
 
+
 .toolkit-list {
     display: flex;
     flex-wrap: wrap;
@@ -519,6 +548,7 @@ TECHNICAL TOOLKIT
 
     margin-top: 1.5rem;
 }
+
 
 .toolkit-list span {
     padding: .75rem 1.75rem;
@@ -535,9 +565,11 @@ TECHNICAL TOOLKIT
     color: var(--charcoal);
 }
 
+
 .toolkit-list {
     margin-top: .75rem;
 }
+
 
 .toolkit-list + h3 {
     margin-top: 2.5rem;
@@ -556,6 +588,7 @@ TOOLKIT DECORATION
     background: rgba(255,255,255,.28);
 }
 
+
 .toolkit-shape-left {
     width: 500px;
     height: 500px;
@@ -563,6 +596,7 @@ TOOLKIT DECORATION
     left: -350px;
     bottom: -330px;
 }
+
 
 .toolkit-shape-right {
     width: 500px;
@@ -573,6 +607,7 @@ TOOLKIT DECORATION
 
     background: rgba(255,255,255,.2);
 }
+
 
 .toolkit-dots {
     position: absolute;
@@ -603,237 +638,287 @@ FEATURED WORK
 
 .featured-work {
     width: 100%;
+
     background: var(--background);
+
     border-top: 1px solid var(--charcoal);
 }
 
+
 .featured-work-content {
     width: min(1300px, 90%);
+
     margin: 0 auto;
+
     padding: 4.5rem 0 5rem;
 }
+
 
 .featured-work .section-heading {
     margin-bottom: 3rem;
 }
 
+
 .featured-work .section-heading .accent-line {
     background: var(--amber);
+
     margin: 0 0 1rem 0;
 }
 
+
 .featured-work .section-heading h2 {
     font-family: "Cormorant Garamond", serif;
+
     font-size: clamp(3rem, 5vw, 4rem);
+
     line-height: .95;
+
     margin: 0 0 .75rem 0;
+
     color: var(--charcoal-dark);
 }
 
+
 .featured-work .section-heading p {
     margin: 0;
+
     font-size: 1.05rem;
     line-height: 1.6;
+
     color: var(--text-secondary);
 }
+
 
 .project-list {
     display: flex;
     flex-direction: column;
+
     gap: 5rem;
 }
+
 
 .project {
     width: 100%;
 }
 
+
+/* ======================
+PROJECT SCREENSHOT
+====================== */
+
 .project-image {
     position: relative;
     overflow: hidden;
+
     width: calc(100% - 2.5rem);
     height: 530px;
+
     margin: 0 auto;
-    border-radius: 10px;
+    margin-bottom: 0;
+
     background: var(--charcoal-dark);
+
+    border-radius: 10px 10px 0 0px;
 }
+
 
 .project-image img {
     display: block;
+
     width: 100%;
     height: 100%;
+
     object-fit: cover;
     object-position: top center;
 }
 
-.project-overlay {
-    position: absolute;
-    inset: 0;
-    display: flex;
-    align-items: flex-end;
-    padding: 2rem 3.5rem 2rem;
-    background: linear-gradient(
-        to bottom,
-        rgba(180, 83, 9, 0.02) 0%,
-        rgba(180, 83, 9, 0.08) 25%,
-        rgba(180, 83, 9, 0.32) 50%,
-        rgba(180, 83, 9, 0.88) 82%,
-        rgba(180, 83, 9, 0.96) 100%
-    );
+
+/* ======================
+PROJECT SUMMARY
+====================== */
+
+.project-summary {
+    width: calc(100% - 2.5rem);
+
+    margin: 0 auto;
+
+    padding: 1.5rem 3rem 1.75rem;
+
+    background: var(--amber-dark);
+
+    color: white;
+
+    border-radius: 0 0 10px 10px;
+
 }
 
-.project-caption {
-    max-width: 1000px;
-    color: white;
-}
 
 .project-type {
     display: block;
-    margin-bottom: .35rem;
+
+    margin-bottom: .55rem;
+
     font-size: .7rem;
     font-weight: 700;
+
     letter-spacing: .1em;
+
     text-transform: uppercase;
+
     color: #fbbf24;
 }
 
-.project-caption h3 {
-    margin: 0 0 .5rem 0;
-    font-family: "Cormorant Garamond", serif;
-    font-size: clamp(2.2rem, 3.5vw, 3.1rem);
-    line-height: 1;
-    font-weight: 700;
-}
 
-.project-caption p {
+.project-summary p {
     max-width: 1000px;
+
     margin: 0;
+
     font-size: 1rem;
     line-height: 1.5;
-    color: rgba(255, 255, 255, .95);
+
+    color: white;
 }
+
+
+/* ======================
+PROJECT DETAILS
+====================== */
 
 .project-details {
     padding: 2rem 0 0;
 }
 
+
 .project-section h4 {
     margin: 0 0 .55rem 0;
+
     font-family: "Cormorant Garamond", serif;
+
     font-size: clamp(2rem, 3vw, 2.45rem);
+
     line-height: 1;
+
     color: var(--amber-dark);
 }
 
+
 .project-section h5 {
     margin: 0 0 .45rem 0;
+
     font-size: 1.2rem;
     line-height: 1.35;
     font-weight: 700;
+
     color: var(--charcoal-dark);
 }
 
+
 .project-section p {
     max-width: 1100px;
+
     margin: 0;
+
     font-size: 1rem;
     line-height: 1.65;
+
     color: var(--text-secondary);
 }
+
+
+/* ======================
+TECHNOLOGIES
+====================== */
 
 .project-technologies-section {
     margin-top: 2.5rem;
 }
 
+
 .project-technologies {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+
     gap: 0;
+
     margin-top: .75rem;
 }
+
 
 .project-technologies span {
     display: inline-flex;
     align-items: center;
+
     font-size: 1rem;
     line-height: 1.5;
+
     color: var(--charcoal-light);
 }
 
+
 .project-technologies span:not(:last-child)::after {
     content: "•";
+
     margin: 0 .9rem;
+
     color: var(--amber);
+
     font-weight: 700;
 }
+
+
+/* ======================
+LIVE SITE
+====================== */
 
 .project-link {
     display: inline-flex;
     align-items: center;
+
     gap: .5rem;
+
     margin-top: 2.5rem;
+
     color: var(--amber-dark);
+
     font-size: 1rem;
     font-weight: 700;
+
     text-decoration: none;
+
     border-bottom: 1px solid var(--amber-dark);
+
     padding-bottom: .25rem;
-    transition: color .2s ease, border-color .2s ease, transform .2s ease;
+
+    transition:
+        color .2s ease,
+        border-color .2s ease,
+        transform .2s ease;
 }
+
 
 .project-link span {
     font-size: 1.25rem;
     line-height: 1;
 }
 
+
 .project-link:hover {
     color: var(--amber);
+
     border-color: var(--amber);
+
     transform: translateX(2px);
 }
 
+
 .project-link:focus-visible {
     outline: 3px solid var(--amber);
+
     outline-offset: 6px;
+
     border-radius: 2px;
-}
-
-@media (max-width: 800px) {
-    .project-image {
-        width: 100%;
-        height: 440px;
-    }
-
-    .project-overlay {
-        padding: 1.5rem 1.5rem 1.75rem;
-    }
-
-    .project-details {
-        padding-top: 1.75rem;
-    }
-}
-
-@media (max-width: 560px) {
-    .project-image {
-        height: 380px;
-        border-radius: 8px;
-    }
-
-    .project-overlay {
-        padding: 1.25rem 1.25rem 1.5rem;
-    }
-
-    .project-caption h3 {
-        font-size: 2.1rem;
-    }
-
-    .project-caption p {
-        font-size: .9rem;
-    }
-
-    .project-technologies span {
-        font-size: .95rem;
-    }
 }
 
 
@@ -843,9 +928,13 @@ GET IN TOUCH
 
 .get-in-touch {
     position: relative;
+
     width: 100%;
+
     min-height: 320px;
+
     margin-top: 0;
+
     overflow: hidden;
 
     background:
@@ -859,32 +948,41 @@ GET IN TOUCH
     border-top: 1px solid var(--amber-dark);
 }
 
+
 .get-in-touch-content {
     position: relative;
     z-index: 2;
 
     width: min(1300px, 90%);
+
     margin: 0 auto;
+
     padding: 4rem 0 4.5rem;
 }
+
 
 .get-in-touch-content h2 {
     margin: 0 0 .5rem 0;
 
     font-family: "Cormorant Garamond", serif;
+
     font-size: clamp(3rem, 5vw, 4rem);
+
     line-height: .95;
 
     color: var(--amber-dark);
 }
+
 
 .get-in-touch-content > p {
     margin: 0;
 
     font-size: 1.05rem;
     line-height: 1.6;
+
     color: var(--text-secondary);
 }
+
 
 .social-links {
     position: relative;
@@ -893,119 +991,176 @@ GET IN TOUCH
     display: flex;
     align-items: center;
     flex-wrap: wrap;
+
     gap: clamp(2rem, 4.5vw, 4.5rem);
 
     margin-top: 2.5rem;
 }
 
+
 .social-link {
     display: inline-flex;
     align-items: center;
+
     gap: 1rem;
 
     color: var(--charcoal);
+
     font-size: 1.2rem;
     font-weight: 600;
+
     text-decoration: none;
 
-    transition: color .2s ease, transform .2s ease;
+    transition:
+        color .2s ease,
+        transform .2s ease;
 }
+
 
 .social-icon {
     display: inline-flex;
+
     flex: 0 0 56px;
+
     align-items: center;
     justify-content: center;
 
     width: 56px;
     height: 56px;
+
     border-radius: 12px;
 
-    background: linear-gradient(135deg, var(--amber) 0%, var(--amber-dark) 100%);
-    box-shadow: 0 5px 12px rgba(180, 83, 9, .12);
+    background:
+        linear-gradient(
+            135deg,
+            var(--amber) 0%,
+            var(--amber-dark) 100%
+        );
 
-    transition: box-shadow .2s ease, transform .2s ease;
+    box-shadow:
+        0 5px 12px rgba(180, 83, 9, .12);
+
+    transition:
+        box-shadow .2s ease,
+        transform .2s ease;
 }
+
 
 .social-icon svg {
     display: block;
+
     width: 27px;
     height: 27px;
+
     fill: #fff;
 }
+
 
 .external-link-icon {
     width: 19px;
     height: 19px;
+
     flex: 0 0 19px;
 
     fill: none;
+
     stroke: var(--amber-dark);
+
     stroke-width: 2;
+
     stroke-linecap: round;
     stroke-linejoin: round;
 
-    transition: transform .2s ease;
+    transition:
+        transform .2s ease;
 }
+
 
 .social-link:hover {
     color: var(--amber-dark);
+
     transform: translateY(-2px);
 }
 
+
 .social-link:hover .social-icon {
-    box-shadow: 0 8px 18px rgba(180, 83, 9, .2);
+    box-shadow:
+        0 8px 18px rgba(180, 83, 9, .2);
 }
+
 
 .social-link:hover .external-link-icon {
     transform: translate(2px, -2px);
 }
 
+
 .social-link:focus-visible {
     outline: 3px solid var(--amber);
+
     outline-offset: 6px;
+
     border-radius: 4px;
 }
 
+
 /* Decorative background shapes: a subtle variation on Technical Toolkit. */
+
 .contact-shape {
     position: absolute;
+
     border-radius: 50%;
+
     background: rgba(255, 255, 255, .28);
+
     pointer-events: none;
 }
+
 
 .contact-shape-left {
     width: 520px;
     height: 520px;
+
     left: -390px;
     bottom: -390px;
+
     background: rgba(255, 255, 255, .22);
 }
+
 
 .contact-shape-right {
     width: 470px;
     height: 470px;
+
     right: -300px;
     top: -300px;
+
     background: rgba(255, 255, 255, .24);
 }
 
+
 .contact-dots {
     position: absolute;
+
     z-index: 1;
+
     top: 78px;
     right: 10%;
 
     width: 126px;
     height: 112px;
 
-    background-image: radial-gradient(#e9a044 1.5px, transparent 1.5px);
+    background-image:
+        radial-gradient(
+            #e9a044 1.5px,
+            transparent 1.5px
+        );
+
     background-size: 14px 14px;
+
     opacity: .58;
+
     pointer-events: none;
 }
-
 
 
 /* ======================
@@ -1014,17 +1169,27 @@ FOOTER
 
 .site-footer {
     width: 100%;
+
     padding: 1rem 0;
+
     background: var(--background);
+
     border-top: 1px solid var(--warm-gray);
 }
+
+
 .site-footer-content {
     width: min(1300px, 90%);
+
     margin: 0 auto;
 }
+
+
 .site-footer p {
     margin: 0;
+
     color: var(--text-secondary);
+
     font-size: 0.875rem;
     line-height: 1.5;
 }
