@@ -2,9 +2,10 @@
 
 Hi, I'm Jashele
 
-Web Developer & CMS Professional
+Web Developer & CMS Specialist
 
 6+ years building, managing, and improving web solutions through web development, CMS management, and platform administration.
+
 
 
 
@@ -20,7 +21,7 @@ Career Journey
 Over the past 6 years, I have built and supported a wide range of web and digital experiences across Ecommerce, Higher Education, Energy Efficiency, and Digital Marketing, adapting to different platforms, audiences, and business needs.
 
 Current
-Web Content Manager
+Associate Ecommerce Business Analyst
 CLEAResult
 
 2024
@@ -38,7 +39,6 @@ Meltmedia
 2020
 Software Developer Specialist
 Maricopa Community Colleges
-
 
 
 
@@ -72,6 +72,7 @@ WordPress
 
 
 
+
 -----------------------------------
 Featured Work
 
@@ -83,8 +84,10 @@ A selection of live production websites I've built and contributed to, including
 
 
 
+
 -----------------------------------
 Get in Touch
+
 Find me across the web.
 
 LinkedIn, GitHub, YouTube
