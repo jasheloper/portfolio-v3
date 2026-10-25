@@ -710,14 +710,14 @@ PROJECT SCREENSHOT
     position: relative;
     overflow: hidden;
 
-    width: calc(100% - 2.5rem);
+    width: 100%;
     height: 530px;
 
     margin: 0 auto;
     margin-bottom: 0;
 
     background: var(--charcoal-dark);
-
+    border: 1px solid var(--amber-dark);
     border-radius: 10px 10px 0 0px;
 }
 
@@ -738,7 +738,7 @@ PROJECT SUMMARY
 ====================== */
 
 .project-summary {
-    width: calc(100% - 2.5rem);
+    width: 100%;
 
     margin: 0 auto;
 
@@ -750,6 +750,8 @@ PROJECT SUMMARY
 
     border-radius: 0 0 10px 10px;
 
+    border-top: 2px solid var(--amber-light);
+
 }
 
 
@@ -758,7 +760,7 @@ PROJECT SUMMARY
 
     margin-bottom: .55rem;
 
-    font-size: .7rem;
+    font-size: 0.9rem;
     font-weight: 700;
 
     letter-spacing: .1em;
