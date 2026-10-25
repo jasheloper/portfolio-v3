@@ -1,41 +1,30 @@
 ✦ www.devjashele.tech
-
-Hi, I'm Jashele
-
+Hi, I'm
+Jashele
 Web Developer & CMS Specialist
-
-6+ years building, managing, and improving web solutions through web development, CMS management, and platform administration.
-
-
+6+ years building, managing, and improving web solutions through
+web development, CMS management, and platform administration.
 
 
 
 
-
-
-
-
------------------------------------
 Career Journey
-
-Over the past 6 years, I have built and supported a wide range of web and digital experiences across Ecommerce, Higher Education, Energy Efficiency, and Digital Marketing, adapting to different platforms, audiences, and business needs.
-
+Over the past 6 years, I have built and supported a wide range
+of web and digital experiences across Ecommerce, Higher Education,
+Energy Efficiency, and Digital Marketing, adapting to different
+platforms, audiences, and business needs.
 Current
-Associate Ecommerce Business Analyst
+Ecommerce Business Analyst
 CLEAResult
-
 2024
 Web Publisher
 Red Ventures
-
 2022
 Web Administrator
 AVB Marketing
-
 2021
 HTML Email Developer
 Meltmedia
-
 2020
 Software Developer Specialist
 Maricopa Community Colleges
@@ -45,14 +34,9 @@ Maricopa Community Colleges
 
 
 
-
-
-
------------------------------------
 Technical Toolkit
-
-In my work, I have used the following technologies and tools to build, maintain, and improve high-quality web experiences.
-
+In my work, I have used the following technologies and tools
+to build, maintain, and improve high-quality web experiences.
 Web Development
 HTML
 CSS
@@ -60,7 +44,6 @@ JavaScript
 Tailwind
 Bootstrap
 Git
-
 CMS & Platforms
 Drupal
 Magento
@@ -71,36 +54,22 @@ WordPress
 
 
 
-
-
------------------------------------
 Featured Work
-
-A selection of live production websites I've built and contributed to, including site builds, ecommerce experiences, and content-driven marketing sites.
-
-
-
+A selection of live production websites I've built and
+contributed to, including site builds, ecommerce experiences,
+and content-driven marketing sites.
 
 
 
 
-
------------------------------------
 Get in Touch
-
 Find me across the web.
-
-LinkedIn, GitHub, YouTube
-
-
-
+LinkedIn
+GitHub
+YouTube
 
 
 
------------------------------------
-Footer 
+
 
 © 2026 Jashele Tillman
-
-
-update the code with the new section
