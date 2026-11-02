@@ -699,6 +699,10 @@ FEATURED WORK
     color: var(--text-secondary);
 }
 
+.feat-work-p {
+     margin-top: 1rem !important;
+}
+
 
 .project-list {
     display: flex;
