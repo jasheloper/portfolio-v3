@@ -51,20 +51,21 @@ Adobe Workfront ✅
 
 
 
+
 Featured Work
 
-
-https://sdgegap.clearesult.com/
-https://xcelenergycoresqualify.clearesult.com/
-https://innovate.cpsenergy.com/cps-partners/
-
-
+.project-image
+.project-image img
+.project-section
+.feat-work-p
 
 
 
-Since August 2025, my work has largely centered around building and maintaining customer-facing energy program websites, including marketing sites and ecommerce experiences.
 
-Below are a few examples of the live production websites I’ve built and developed.
+
+
+
+
 
 
 

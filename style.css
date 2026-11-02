@@ -728,7 +728,7 @@ PROJECT SCREENSHOT
     overflow: hidden;
 
     width: 100%;
-    height: 580px;
+    height: auto;
 
     margin: 0 auto;
     margin-bottom: 0;
@@ -740,13 +740,12 @@ PROJECT SCREENSHOT
 
 
 .project-image img {
-    display: block;
+width: 100%;
+height: 100%;
+display: block;
 
-    width: 100%;
-    height: 100%;
-
-    object-fit: cover;
-    object-position: top center;
+object-fit: cover;
+object-position: top center;
 }
 
 
@@ -840,6 +839,14 @@ PROJECT DETAILS
     line-height: 1.65;
 
     color: var(--text-secondary);
+}
+
+.project-note {
+margin-top: 1rem !important;
+font-size: 0.75rem;
+line-height: 1.5;
+color: var(--text-secondary);
+font-style: italic;
 }
 
 
