@@ -21,12 +21,6 @@ Technical Toolkit
 .toolkit-content h3
 
 
-In my work, I have used the following technologies and tools to build, maintain, and improve high-quality web experiences.
-
-
-In my work (profesionally & personally), I have used the following technologies and tools to build, maintain, and improve high-quality web experiences.
-
-
 
 Skills
 Technical Skills:
@@ -59,6 +53,7 @@ Adobe Workfront ✅
 
 Featured Work
 
+A selection of live production websites I've built and contributed to, including site builds, ecommerce experiences, and content-driven marketing sites.
 
 
 
