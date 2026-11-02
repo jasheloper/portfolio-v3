@@ -1,33 +1,13 @@
-✦ www.devjashele.tech
-Hi, I'm
-Jashele
-Web Developer & CMS Specialist
-6+ years building, managing, and improving web solutions through
-web development, CMS management, and platform administration.
+Hero/Intro
+
+
+
 
 
 
 
 Career Journey
-Over the past 6 years, I have built and supported a wide range
-of web and digital experiences across Ecommerce, Higher Education,
-Energy Efficiency, and Digital Marketing, adapting to different
-platforms, audiences, and business needs.
-Current
-Ecommerce Business Analyst
-CLEAResult
-2024
-Web Publisher
-Red Ventures
-2022
-Web Administrator
-AVB Marketing
-2021
-HTML Email Developer
-Meltmedia
-2020
-Software Developer Specialist
-Maricopa Community Colleges
+
 
 
 
@@ -35,19 +15,42 @@ Maricopa Community Colleges
 
 
 Technical Toolkit
-In my work, I have used the following technologies and tools
-to build, maintain, and improve high-quality web experiences.
-Web Development
-HTML
-CSS
-JavaScript
-Tailwind
-Bootstrap
+
+.toolkit-list span
+.toolkit-list + h3
+.toolkit-content h3
+
+
+In my work, I have used the following technologies and tools to build, maintain, and improve high-quality web experiences.
+
+
+In my work (profesionally & personally), I have used the following technologies and tools to build, maintain, and improve high-quality web experiences.
+
+
+
+Skills
+Technical Skills:
+HTML ✅
+CSS (Tailwind
+Bootstrap)  ✅
+JavaScript  ✅
+Magento (Adobe Commerce)  ✅
+Drupal  ✅
+WordPress  ✅
+SEO
+Responsive Web Design
+Web Accessibility
 Git
-CMS & Platforms
-Drupal
-Magento
-WordPress
+
+
+Tools: 
+Google Analytics
+Adobe Photoshop ✅
+Figma ✅
+GitHub ✅
+Jira ✅
+Confluence ✅
+Adobe Workfront ✅
 
 
 
@@ -55,21 +58,11 @@ WordPress
 
 
 Featured Work
-A selection of live production websites I've built and
-contributed to, including site builds, ecommerce experiences,
-and content-driven marketing sites.
+
+
+
 
 
 
 
 Get in Touch
-Find me across the web.
-LinkedIn
-GitHub
-YouTube
-
-
-
-
-
-© 2026 Jashele Tillman
