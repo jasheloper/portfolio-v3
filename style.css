@@ -1299,4 +1299,15 @@ MOBILE STYLING
     margin-bottom: 0.35rem;
 }
 
+/* Technical Toolkit */
+
+.toolkit-list {
+    gap: .5rem;
+}
+
+.toolkit-list span {
+    padding: .5rem 1rem;
+    font-size: .875rem;
+}
+
 }
