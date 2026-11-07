@@ -832,12 +832,10 @@ PROJECT DETAILS
 
 
 .project-section p {
-
+    max-width: 96%;
     margin: 0;
-
     font-size: 1rem;
     line-height: 1.65;
-
     color: var(--text-secondary);
 }
 
