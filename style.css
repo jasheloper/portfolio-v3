@@ -1301,6 +1301,18 @@ MOBILE STYLING
 
 /* Technical Toolkit */
 
+.toolkit-content {
+    padding: 2.5rem 0 2.5rem;
+}
+
+.toolkit-content p {
+    margin-bottom: 1.5rem;
+}
+
+.toolkit-list + h3 {
+    margin-top: 1.75rem;
+}
+
 .toolkit-list {
     gap: .5rem;
 }
