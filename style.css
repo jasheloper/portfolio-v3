@@ -1301,6 +1301,10 @@ MOBILE STYLING
 
 /* Technical Toolkit */
 
+.toolkit-dots {
+    opacity: .25;
+}
+
 .toolkit-content {
     padding: 2.5rem 0 2.5rem;
 }
