@@ -1215,3 +1215,34 @@ FOOTER
     font-size: 0.875rem;
     line-height: 1.5;
 }
+
+
+
+/* ======================
+MOBILE — HERO
+====================== */
+
+@media (max-width: 767px) {
+
+    .hero {
+        width: 90%;
+        height: auto;
+        grid-template-columns: 1fr;
+    }
+
+    .photo {
+        height: auto;
+    }
+
+    .photo img {
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+        transform: none;
+    }
+
+    .intro {
+        padding: 2.5rem 2rem;
+    }
+
+}
