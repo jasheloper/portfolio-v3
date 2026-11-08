@@ -1326,7 +1326,13 @@ MOBILE STYLING
     font-size: .875rem;
 }
 
-/** Featured Work */
+/* Featured Work */
+
+.project {
+    width: calc(100% + 1rem);
+    margin-left: -.5rem;
+}
+
 
 .project-summary {
     padding: 1.5rem 1.25rem;
