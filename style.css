@@ -1365,11 +1365,15 @@ MOBILE STYLING
 
     width: 100%;
     margin: 0 auto;
-    padding: 2.5rem 3rem 1.75rem;
 
     background: var(--amber-dark);
     color: white;
     border-radius: 0 0 10px 10px;
+
+padding-top: 3rem;
+padding-bottom: 1.5rem;
+padding-left: 2rem;
+padding-right: 1rem;
 }
 
 .project-summary p {
