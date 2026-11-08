@@ -1344,10 +1344,10 @@ MOBILE STYLING
     margin: 0 auto -1.25rem;
 
     background: white;
-    border: 2px solid rgba(255, 255, 255, .95);
+    border: 3px solid rgba(255, 255, 255, .95);
     border-radius: 12px;
 
-    box-shadow: 0 10px 24px rgba(31, 31, 31, .16);
+    box-shadow: 0 12px 28px rgba(31, 31, 31, .20);
 }
 
 .project-image img {
