@@ -1333,13 +1333,43 @@ MOBILE STYLING
     margin-left: -.5rem;
 }
 
+.project-image {
+    display: block;
+    position: relative;
+    z-index: 2;
+    overflow: hidden;
+
+    width: 100%;
+    height: auto;
+    margin: 0 auto -1.25rem;
+
+    background: white;
+    border: 2px solid rgba(255, 255, 255, .95);
+    border-radius: 12px;
+
+    box-shadow: 0 10px 24px rgba(31, 31, 31, .16);
+}
+
+.project-image img {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    object-position: top center;
+}
+
 
 .project-summary {
-    padding: 1.5rem 1.25rem;
-    /* padding-top: 1.5rem;
-    padding-right: 1.25rem;
-    padding-bottom: 1.5rem;
-    padding-left: 1.25rem; */
+    position: relative;
+    z-index: 1;
+
+    width: 100%;
+    margin: 0 auto;
+    padding: 2.5rem 3rem 1.75rem;
+
+    background: var(--amber-dark);
+    color: white;
+    border-radius: 0 0 10px 10px;
 }
 
 .project-summary p {
