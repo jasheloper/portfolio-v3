@@ -802,6 +802,14 @@ PROJECT SUMMARY
 PROJECT DETAILS
 ====================== */
 
+
+.project-section {
+    padding: 1.25rem;
+    background: var(--off-white-light);
+    border: 1px solid var(--off-white-dark);
+    border-radius: 10px;
+}
+
 .project-details {
     padding: 2rem 0 0;
 }
