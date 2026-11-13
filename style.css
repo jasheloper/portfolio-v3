@@ -1419,13 +1419,23 @@ padding-right: 1rem;
     font-size: .95rem;
 }
 /* Get in Touch */
-
+.contact-dots {
+    opacity: .15;
+}
 .social-links {
     flex-direction: column;
     align-items: flex-start;
     gap: 1.25rem;
 }
-.contact-dots {
-    opacity: .15;
+
+.social-icon {
+    flex-basis: 48px;
+    width: 48px;
+    height: 48px;
+}
+
+.social-icon svg {
+    width: 24px;
+    height: 24px;
 }
 }
