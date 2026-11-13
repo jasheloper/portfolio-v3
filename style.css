@@ -1416,4 +1416,7 @@ padding-right: 1rem;
     align-items: flex-start;
     gap: 1.25rem;
 }
+.contact-dots {
+    opacity: .15;
+}
 }
