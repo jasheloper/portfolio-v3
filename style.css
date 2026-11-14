@@ -1572,4 +1572,7 @@ RESPONSIVE STYLING
         align-items: center;
         gap: .75rem;
     }
+        .site-footer {
+        padding: 1rem 0 calc(2rem + env(safe-area-inset-bottom));
+    }
 }
