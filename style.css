@@ -1439,3 +1439,9 @@ padding-right: 1rem;
     height: 24px;
 }
 }
+
+@media (max-width: 1125px) {
+    .hero {
+        height: auto;
+    }
+}
