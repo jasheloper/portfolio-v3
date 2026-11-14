@@ -1,27 +1,41 @@
-const links = document.querySelectorAll(".site-nav-link");
 
+const links = document.querySelectorAll(".site-nav-link");
 const sections = document.querySelectorAll(
   "#home, #career, #toolkit, #work, #contact"
 );
 
-const observer = new IntersectionObserver((entries) => {
-  entries.forEach((entry) => {
-    if (!entry.isIntersecting) return;
+function updateActiveNav() {
+  const atBottom =
+    window.innerHeight + window.scrollY >=
+    document.documentElement.scrollHeight - 2;
 
-    links.forEach((link) => {
-      const active = link.getAttribute("href") === `#${entry.target.id}`;
+  let activeId = "home";
 
-      link.classList.toggle("active", active);
+  if (atBottom) {
+    activeId = "contact";
+  } else {
+    const detectionLine = window.innerHeight * 0.35;
 
-      if (active) {
-        link.setAttribute("aria-current", "location");
-      } else {
-        link.removeAttribute("aria-current");
+    sections.forEach((section) => {
+      if (section.getBoundingClientRect().top <= detectionLine) {
+        activeId = section.id;
       }
     });
-  });
-}, {
-  rootMargin: "-20% 0px -65% 0px"
-});
+  }
 
-sections.forEach((section) => observer.observe(section));
+  links.forEach((link) => {
+    const active = link.getAttribute("href") === `#${activeId}`;
+
+    link.classList.toggle("active", active);
+
+    if (active) {
+      link.setAttribute("aria-current", "location");
+    } else {
+      link.removeAttribute("aria-current");
+    }
+  });
+}
+
+window.addEventListener("scroll", updateActiveNav, { passive: true });
+window.addEventListener("resize", updateActiveNav);
+updateActiveNav();
