@@ -34,7 +34,7 @@
 
 body {
     margin: 0;
-    padding: 2rem 0;
+padding: 0;
 
     background: var(--background);
 
@@ -42,6 +42,57 @@ body {
     color: var(--text-primary);
 }
 
+
+/* ======================
+PRIMARY NAVIGATION — DESKTOP
+====================== */
+
+.site-nav {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+    margin: 0 0 2rem;
+    padding: .85rem 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: clamp(1rem, 3vw, 3rem);
+background: rgba(247, 245, 242, 0.55);
+backdrop-filter: blur(12px);
+    border-bottom: 1px solid var(--off-white-dark);
+    border-radius: 0;
+}
+
+.site-nav-link {
+    display: inline-block;
+    padding: .65rem 1.1rem;
+    border-radius: 999px;
+    color: var(--charcoal-dark);
+    font-size: .95rem;
+    font-weight: 700;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.site-nav-link:hover {
+    color: var(--amber-dark);
+}
+
+.site-nav-link.active {
+    background: var(--amber);
+    color: white;
+}
+
+.site-nav-link:focus-visible {
+    outline: 2px solid var(--amber-dark);
+    outline-offset: 3px;
+}
+
+/* Navigation is intentionally omitted on mobile and smaller tablets. */
+@media (max-width: 844px) {
+    .site-nav { display: none; }
+}
 
 /* ======================
 HERO

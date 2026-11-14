@@ -1,74 +1,24 @@
-Hero/Intro
+NAV:
+
+Home · Experience · Skills · Work · Contact
+
+Home · Career · Skills · Work · Contact
 
 
 
+sections:
 
-
-
-
+Hero (Home)
 Career Journey
-
-
-
-
-
-
-
 Technical Toolkit
-
-.toolkit-list span
-.toolkit-list + h3
-.toolkit-content h3
-
-
-
-Skills
-Technical Skills:
-HTML ✅
-CSS (Tailwind
-Bootstrap)  ✅
-JavaScript  ✅
-Magento (Adobe Commerce)  ✅
-Drupal  ✅
-WordPress  ✅
-SEO
-Responsive Web Design
-Web Accessibility
-Git
-
-
-Tools: 
-Google Analytics
-Adobe Photoshop ✅
-Figma ✅
-GitHub ✅
-Jira ✅
-Confluence ✅
-Adobe Workfront ✅
-
-
-
-
-
-
-
 Featured Work
-
-.project-image
-.project-image img
-.project-section
-.feat-work-p
+Get in Touch
 
 
-IDs:
+Project IDs:
 #marketing-ecommerce-website
 #bilingual-marketing-website
 #income-verification-website
 
 
 
-Get in Touch
-
-
-
-Footer
