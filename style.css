@@ -1324,6 +1324,13 @@ FOOTER
 }
 
 
+/* Optical alignment for serif section headings */
+.toolkit-content h2,
+.get-in-touch-content h2 {
+    transform: translateX(-5px);
+}
+
+
 
 /* ======================
 RESPONSIVE STYLING
