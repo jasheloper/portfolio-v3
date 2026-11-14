@@ -872,7 +872,7 @@ PROJECT DETAILS
 }
 
 
-.project-section h4 {
+/* .project-section h4 {
     margin: 0 0 .55rem 0;
 
     font-family: "Cormorant Garamond", serif;
@@ -880,6 +880,18 @@ PROJECT DETAILS
     font-size: clamp(2rem, 3vw, 2.45rem);
 
     line-height: 1;
+
+    color: var(--amber-dark);
+}  */
+
+
+.project-section h4 {
+    margin: 0 0 .55rem 0;
+
+    font-family: inherit;
+    font-size: clamp(1.4rem, 2.5vw, 1.75rem);
+    font-weight: 700;
+    line-height: 1.2;
 
     color: var(--amber-dark);
 }
