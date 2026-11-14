@@ -33,6 +33,7 @@
 
 html {
     scroll-behavior: smooth;
+    scroll-padding-top: 90px;
 }
 
 
@@ -62,7 +63,7 @@ PRIMARY NAVIGATION — DESKTOP
     justify-content: center;
     align-items: center;
     gap: clamp(1rem, 3vw, 3rem);
-background: rgba(247, 245, 242, 0.55);
+background: rgba(247, 245, 242, 0.70);
 backdrop-filter: blur(12px);
     border-bottom: 1px solid var(--off-white-dark);
     border-radius: 0;
