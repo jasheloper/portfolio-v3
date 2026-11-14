@@ -1535,3 +1535,12 @@ RESPONSIVE STYLING
         height: auto;
     }
 }
+
+/* Stack footer elements on smaller mobile screens to prevent crowding. */
+@media (max-width: 400px) {
+    .site-footer-content {
+        flex-direction: column;
+        align-items: center;
+        gap: .75rem;
+    }
+}
