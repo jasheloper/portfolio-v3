@@ -1231,9 +1231,7 @@ FOOTER
 MOBILE STYLING
 ====================== */
 
-
-/* HERO */
-
+/* MOBILE — TECHNICAL TOOLKIT, FEATURED WORK & GET IN TOUCH */
 @media (max-width: 767px) {
 
     /* TECHNICAL TOOLKIT */
@@ -1371,7 +1369,8 @@ MOBILE STYLING
     }
 }
 
-@media (max-width: 768px) {
+/* HERO — RESPONSIVE */
+@media (max-width: 839px) {
 
     /* HERO */
 
@@ -1397,6 +1396,10 @@ MOBILE STYLING
     .intro {
         padding: 2.5rem 2rem;
     }
+}
+
+/* CAREER TIMELINE — RESPONSIVE */
+@media (max-width: 839px) {
 
     /* CAREER TIMELINE */
 
@@ -1449,6 +1452,7 @@ MOBILE STYLING
     }
 }
 
+/* HERO — RESPONSIVE HEIGHT */
 @media (max-width: 1125px) {
     .hero {
         height: auto;

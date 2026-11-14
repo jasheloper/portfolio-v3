@@ -1,4 +1,5 @@
-@media (max-width: 768px) {
+/* HERO — RESPONSIVE */
+@media (max-width: 839px) {
 
     /* HERO */
 
@@ -24,6 +25,10 @@
     .intro {
         padding: 2.5rem 2rem;
     }
+}
+
+/* CAREER TIMELINE — RESPONSIVE */
+@media (max-width: 839px) {
 
     /* CAREER TIMELINE */
 
@@ -73,142 +78,5 @@
 
     .career-details h3 {
         margin-bottom: 0.35rem;
-    }
-}
-
-@media (max-width: 767px) {
-
-    /* TECHNICAL TOOLKIT */
-
-    .toolkit-dots {
-        opacity: .15;
-    }
-
-    .toolkit-content {
-        padding: 2.5rem 0 2.5rem;
-    }
-
-    .toolkit-content p {
-        margin-bottom: 1.5rem;
-    }
-
-    .toolkit-list + h3 {
-        margin-top: 1.75rem;
-    }
-
-    .toolkit-list {
-        gap: .5rem;
-    }
-
-    .toolkit-list span {
-        padding: .5rem 1rem;
-        font-size: .875rem;
-    }
-
-    /* FEATURED WORK */
-
-    .project {
-        width: calc(100% + 1rem);
-        margin-left: -.5rem;
-    }
-
-    .project-image {
-        display: block;
-        position: relative;
-        z-index: 2;
-        overflow: hidden;
-
-        width: 100%;
-        height: auto;
-        margin: 0 auto -1.25rem;
-
-        background: white;
-        border: 6px solid rgba(255, 255, 255, .95);
-        border-radius: 12px;
-
-        box-shadow: 0 12px 28px rgba(31, 31, 31, .20);
-    }
-
-    .project-image img {
-        display: block;
-        width: 100%;
-        height: auto;
-        object-fit: contain;
-        object-position: top center;
-    }
-
-    .project-summary {
-        position: relative;
-        z-index: 1;
-
-        width: 100%;
-        margin: 0 auto;
-
-        background: var(--amber-dark);
-        color: white;
-        border-radius: 0 0 10px 10px;
-
-        padding-top: 3rem;
-        padding-bottom: 1.5rem;
-        padding-left: 1.25rem;
-        padding-right: 1rem;
-    }
-
-    .project-summary p {
-        font-size: .95rem;
-    }
-
-    .project-type {
-        font-size: 1rem;
-    }
-
-    /* PROJECT DETAILS */
-
-    .project-section h4 {
-        font-size: 1.85rem;
-    }
-
-    .project-section h5 {
-        font-size: 1.1rem;
-    }
-
-    .project-section p {
-        font-size: .95rem;
-        line-height: 1.6;
-    }
-
-    .project-note {
-        font-size: .75rem;
-    }
-
-    .project-technologies span {
-        font-size: .95rem;
-    }
-
-    .project-link {
-        font-size: .95rem;
-    }
-
-    /* GET IN TOUCH */
-
-    .contact-dots {
-        opacity: .15;
-    }
-
-    .social-links {
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 1.25rem;
-    }
-
-    .social-icon {
-        flex-basis: 48px;
-        width: 48px;
-        height: 48px;
-    }
-
-    .social-icon svg {
-        width: 24px;
-        height: 24px;
     }
 }
