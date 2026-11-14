@@ -1280,9 +1280,30 @@ FOOTER
 .site-footer-content {
     width: min(1300px, 90%);
     margin: 0 auto;
+
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 1rem;
+}
+
+.footer-links {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.footer-link,
+.back-to-top {
+    color: var(--amber-dark);
+    font-size: .875rem;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.footer-link:hover,
+.back-to-top:hover {
+    text-decoration: underline;
 }
 
 .back-to-top {
@@ -1536,9 +1557,10 @@ RESPONSIVE STYLING
     }
 }
 
-/* Stack footer elements on smaller mobile screens to prevent crowding. */
-@media (max-width: 400px) {
-    .site-footer-content {
+/* Stack footer content on narrow mobile screens to prevent crowding. */
+@media (max-width: 700px) {
+    .site-footer-content,
+    .footer-links {
         flex-direction: column;
         align-items: center;
         gap: .75rem;
