@@ -885,7 +885,7 @@ PROJECT DETAILS
 }  */
 
 
-.project-section h4 {
+.project-section h3 {
     margin: 0 0 .55rem 0;
 
     font-family: inherit;
@@ -897,7 +897,7 @@ PROJECT DETAILS
 }
 
 
-.project-section h5 {
+.project-section h4 {
     margin: 0 0 .45rem 0;
 
     font-size: 1.2rem;
@@ -1425,11 +1425,11 @@ RESPONSIVE STYLING
 
     /* PROJECT DETAILS */
 
-    .project-section h4 {
+    .project-section h3 {
         font-size: 1.85rem;
     }
 
-    .project-section h5 {
+    .project-section h4 {
         font-size: 1.1rem;
     }
 
