@@ -85,7 +85,7 @@ backdrop-filter: blur(12px);
 }
 
 .site-nav-link.active {
-    background: var(--amber);
+    background: var(--amber-dark);
     color: white;
 }
 
