@@ -1,9 +1,4 @@
-# Portfolio Website - Version 3.0 (coming soon)
-
-
-### 💬 About
-My personal portfolio website to showcase my technical work and career journey.
-<br><br>
+# Portfolio Website
 
 
 ## Previous Versions
