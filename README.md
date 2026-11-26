@@ -1,7 +1,13 @@
 # Portfolio Website Version 3
-Launched 11/19/2026:
+
+My personal portfolio website showcasing my technical work and career journey.
+
+Launched November 19, 2026.
 
 https://devjashele.tech/
+
+![Portfolio website screenshot](images/read-me-md.png)
+
 
 
 ## Previous Versions
